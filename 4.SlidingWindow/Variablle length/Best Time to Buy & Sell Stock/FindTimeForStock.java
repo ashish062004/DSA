@@ -6,7 +6,8 @@ public class FindTimeForStock {
         for (int i = 1; i < prices.length; i++) {
             if(prices[i] < prevStock)
                 prevStock = prices[i];
-            if(profit < prices[i]-prevStock) profit=prices[i]-prevStock;
+            if(profit < prices[i]-prevStock) 
+                profit=prices[i]-prevStock;
         }
         System.out.println(profit);
     }    

@@ -18,8 +18,8 @@
 ```
 res = res * (n - i) / (i + 1)
 ```
-Above formula is simplified version of n!/r!(n-r)! where we know that similar number of factorial in we cut on both side
+Above formula is simplified version of n!/r!(n-r)! where we know that similar number of factorial in we remove on both side
 
-so, there we say that r is same as number of element in both side ann in code we start divide with '1' for simplicity
+so, there we say that number of element on both side consider as number of 'r' and in code we start divide with '1' for simplicity
 
 
